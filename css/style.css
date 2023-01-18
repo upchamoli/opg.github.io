@@ -1,0 +1,502 @@
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+    color: #505962;
+}
+
+/*---------Navigation Bar---------*/
+
+.navbar{
+    text-transform: uppercase;
+    background-color:#505962;
+    backgroud: -webkit-linear-gradient(left,darkgray 0%, black 100%);
+    font-size: 17px;
+    
+}
+.navlogo{
+    
+}
+
+.navbar-brand img{
+    height: 3rem;
+}
+
+/*-----------Landing Page-----------*/
+
+.landing{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: table;
+    background: #E9ECEF;
+    z-index: -1;
+}
+.home-wrap{
+    clip: rect(0,auto,auto,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+   
+}
+
+.home-inner{
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/landing.jpg);
+        background-size: cover;
+    background-position: center center;
+    -webkit-transform:translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 26%;
+
+}
+
+@font-face{
+    font-family:headingfont;
+    src:url(../fonts/heading.otf);
+}
+
+.caption h3{
+    color: white;
+    font-size: 7vw;
+    font-family: headingfont;
+    text-transform: lowercase;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 100px;
+}
+
+/*-----------All Page Gallery Banner----------*/
+/*.bannertextdiv{
+    
+    background: -webkit-linear-gradient(left,greenyellow 0%, yellowgreen 100%);
+    animation-name: example;
+    animtion-duration: 10s;
+    background-color: red;
+    
+}
+@keyframes example {
+    from{background-color:greenyellow;}
+    to{background-color:yellowgreen;}
+}
+*/
+
+.bannertext{
+     color: white;
+    font-size: 7vw;
+    font-family: headingfont;
+    
+    
+    
+}
+.gallerytextdiv {
+    width: 100%;
+    height: 100%;
+   background-image:url(../images/about-banner.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+    background-size: cover;
+}
+
+
+/*-----------All Page Image GALLERY----------*/
+
+.fit-image{
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.grid-padding img{
+   
+    transition: 0.3s ease-in-out;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+    
+}
+
+.grid-padding img:hover{
+      
+      transform: scale(1.02);
+      
+    
+    
+}
+
+.photoby{
+    text-decoration: none;
+    
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+.photoby:hover{
+    text-decoration: none;
+     color: #505962;
+    transform:rotate(1.2);
+}
+
+.gallerycaption{
+    transition: .5 ease-in-out;
+    opacity: 1;
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -100%);
+}
+
+.cameraicon{
+    text-decoration: none;
+     color: #505962;
+}
+
+.cameraicon:hover{
+    text-decoration: none;
+     color: #505962;
+}
+
+/*------Home Page Gallery---------------*/
+
+.imagesdiv{
+    width: 100%;
+    height: 100%;
+   
+   
+    
+}
+.imagesdiv a{
+    color: #505962;
+    
+}
+
+.imagesdiv a:hover{
+    text-decoration: none;
+    color: #505962;
+}
+
+
+.imagesdiv a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.imagesdiv img:hover{
+    transform: scale(1.02);
+  
+}
+
+.imagestext{
+    padding-left: 15px;
+    
+}
+
+.imagesheading{
+    font-size: 28px;
+}
+
+/*------------Registration Form--------------*/
+.errorclass{
+    font-size: 15px;
+    color: orange;
+}
+
+.registrationtextdiv{
+     
+   background-color: #505962;
+   opacity: .80;
+    color: white;
+    font-family:headingfont;
+    
+}
+
+
+.registrationbody{
+    background: url(../images/bg-banner.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.registrationmain{
+    margin: 0 auto;
+    top: 100px;
+}
+
+.registrationcontent{
+        background-color: #505962;
+    opacity: .90;
+    padding: 50px 20px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 5px;
+    margin-bottom: 130px;
+    color: white;
+}
+
+
+.logininregister a{
+    color: white;
+    
+ }
+.logininregister a:hover{
+    color: white;
+    text-decoration: none;
+}
+/*------------Login form-----------------*/
+
+
+.loginbody{
+    background: url(../images/bg-banner.jpg)center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+} 
+
+.loginmain{
+    margin: 0 auto;
+    margin-top: 110px;
+    padding: 0;
+    
+}
+
+
+
+.modalcontent{
+    background-color: #505962;
+    opacity: .90;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 5px;
+    margin-bottom: 130px;
+    color: white;
+}
+
+.userimg{
+     
+   
+}
+
+.userimg img{
+    
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    
+}
+
+.forminput{
+    margin-bottom: 25px;
+    color: white;
+   
+    
+}
+
+.modalcontent button{
+   
+    margin: 5px 0px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+
+    
+}
+
+.modalcontent button:hover, .modalcontent button:focus{
+    background-color: 	#32CD32;
+}
+
+.forgot{
+    color: white;
+    padding: 5px 0 25px;
+}
+
+.forgot a{
+    color: white;
+     
+}
+
+.forgot a:hover{
+    color: white;
+    text-decoration: none;
+   
+    
+}
+
+/*-----------------profile--------------*/
+.profileinfo h1{
+    color: #505962;
+}
+.profileimg{
+    float: left;
+}
+
+.profileimg img{
+    width: 200px;
+    height: 200px;
+}
+
+.profileinfo button{
+    margin:auto;
+  display:block;
+    
+}
+
+.portfoliotext h2{
+    font-family: headingfont;
+    color: #505962;
+    
+   
+    
+}
+
+
+
+/*
+.pcol{
+    border: 5px solid black;
+}
+
+.prow{
+    border: 5px solid black;
+}
+*/
+
+.overlay{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: -5s ease;
+    background-color: aqua;
+}
+
+
+
+.text{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/*-------------Own Gallery--------------*/
+.owngallery{
+    margin-bottom: 40px;
+}
+
+
+.owngallery h1{
+    font-size: 2rem;
+    color: #505962;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+/*-----------about--------------*/
+
+.abouttextdiv{
+     width: 100%;
+    height: 100%;
+   background-image:url(../images/about-banner.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+    background-size: cover;
+    background-size: cover;
+    
+}
+
+.abouttext{
+    font-size: 7vw;
+    color: white;
+}
+.aboutimg{
+    border-radius: 90%;
+    width: 15%;
+    height: auto;
+    
+}
+.aboutbio{
+    font-size: 1.5rem;
+    color: #505962;
+    
+}
+.title{
+    color: #505962;
+    
+}
+
+.developer{
+    color: #505962;
+}
+
+
+
+
+
+
+
+
+/*------------Footer Section --------------*/
+
+footer{
+    background-color: #505962;
+
+    padding: 1rem 0 1rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+footer img{
+    height: 5.5rem;
+    margin: 0.5rem 0;
+   
+}
+
+.connect{
+    font-size: 20px;
+}
+
+footer a i{
+    color: white;
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+}
+
+footer a i:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
